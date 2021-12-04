@@ -1,0 +1,14 @@
+<style>
+
+</style>
+
+<div id="createTask">
+    <input type="text" [(ngModel)]="taskName">
+    <button (click)="createTask()">Start</button>
+    <button (click)="stopTask()">Stop</button>
+
+    <span>{{hours +':' + minutes +":"+ seconds}}</span>
+    
+    <span>{{taskName}}</span>
+</div>
+
